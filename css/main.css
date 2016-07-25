@@ -5,21 +5,38 @@
 
 body {
   width: 95%;
-/*  height: 400%; */
-  margin: 30px;
+  margin: 20px;
   padding: 0;
   font-family: "Raleway", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   background-color: #fff;
+  color: #333;
+}
+
+a, a:link, a:visited, a:active {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eee;
+  text-decoration: underline;
+}
+
+input, textarea, button {
+  color:#333;
+  padding: 10px;
+  border: 1px #999;
+  background-color: #eee;
+  margin-top: 10px;
 }
 
 .wrapper {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
   height: 90%;
   max-width: 1000px;
-  padding: 10px 20px 10px 20px;
   border-radius: 5px;
 }
 
@@ -71,6 +88,16 @@ body {
   text-align: center;
 }
 
+.clear {
+  clear: left;
+}
+
+.contact {
+  width: 70%;
+  float: left;
+  text-align: left;
+}
+
 .work_img {
   max-width:100%;
   max-height:100%;
@@ -81,6 +108,16 @@ body {
   height: 400px;
   width: auto;
   margin-bottom: 30px;
+}
+
+.waffel {
+  float: right;
+  margin-top: 50px;
+}
+
+.waffel img {
+  height: 200px;
+  width: auto;
 }
 
 .footer {
@@ -94,4 +131,5 @@ body {
 
 .footer a {
   color: #555;
+  text-decoration: underline;
 }
